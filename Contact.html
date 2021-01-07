@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>Contact</H1>
+   
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="About.html"><li>About</li></a>
+                <a href="Contact.html"><li>Contact</li></a>
+                <a href="DemoContact.html"><li>Demo Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h1>Welcome to my Contact Page<h1> 
+        <form>
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+            <input type="tel" name="Phone_Number" placeholder="(91)-9319221128"
+            pattern="[\(]\d{2}[\)][\-]\d{10}" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
